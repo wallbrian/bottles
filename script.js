@@ -5,9 +5,9 @@ function bottle(){
 		let song2 =""
 		
 			if(i>2){
-				song =  +i+ " bottles of beer on the wall, " +i+ " bottles of beer" 		
+				song =  +i+ " bottles of beer on the wall, " +i+ " bottles of beer" +"<p/>"
 				document.getElementById("main").innerHTML += (song)
-				"+<p>+"
+				
 				song2 = "Take one down and pass it around, " +(i-1)+ " bottles of beer on the wall"
 				document.getElementById("main").innerHTML += (song2)
 				}
